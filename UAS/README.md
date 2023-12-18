@@ -18,7 +18,7 @@ Install postman
 https://www.postman.com/downloads/
 
 get ponsel list
-<img src='img/get_ponsel.png' alt='ponsel list'/>
+<img src='img/get_salmon.png' alt='salmon list'/>
 
 get recommendations saw
 <img src='img/get_saw.png' alt='recommendations saw'/>
@@ -30,13 +30,7 @@ get recommendations wp
 Implementasikan model yang sudah anda buat ke dalam web api dengan http method `POST`
 
 INPUT:
-{
-    "harga": 1, 
-    "kualitas_kamera": 2, 
-    "kapasitas_baterai": 5, 
-    "kinerja": 3, 
-    "ukuran_layar": 4
-}
+{'harga': 4, 'umur': 3, 'berat': 4, 'lemak': 6, 'omega_3': 3}
 
 OUTPUT (diurutkan / sort dari yang terbesar ke yang terkecil):
 
